@@ -1,4 +1,4 @@
- #!/usr/bin/env bash
+#!/usr/bin/env bash
 
 if [ -d "/home/vagrant/.oh-my-zsh" ]; then
     echo "*** Updating git repo"

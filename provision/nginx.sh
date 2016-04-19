@@ -1,3 +1,5 @@
- #!/usr/bin/env bash
+#!/usr/bin/env bash
  
- apt-get install -y nginx
+apt-get install -y nginx
+
+service nginx start

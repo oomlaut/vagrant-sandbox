@@ -36,4 +36,4 @@ build/
 .rvmrc
 
 # Vagrant local
-vagrant
+.vagrant
