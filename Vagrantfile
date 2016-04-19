@@ -19,5 +19,7 @@ Vagrant.configure(2) do |config|
 
     config.vm.provision "bootstrap", type: "shell", path: "./provision/bootstrap.sh"
     config.vm.provision "oh-my-zsh", type: "shell", path: "./provision/oh-my-zsh.sh"
+    config.vm.provision "nginx", type: "shell", path: "./provision/nginx.sh"
+    config.vm.provision "php", type: "shell", path: "./provision/php.sh"
 
-    end
+end
